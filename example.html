@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            background-color: rgb(26, 220, 129);
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 200px;
+            color: white;
+        }
+        .para1{
+            margin-top: 5px;
+        }
+        aside{
+            padding: 20px;
+            background-color: rgb(240, 229, 229);
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .cont2{
+            background-color: black;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .img1{
+            width: 95%;
+            height: 200px;
+            background-color: lightgray;
+            padding: 10px;
+
+        }
+        .img2{
+            width: 95%;
+            height: 80px;
+            padding: 10px;
+            background-color: lightgray;
+            margin-bottom: 10px;
+        }
+       article{
+        padding: 20px;
+       }
+       footer{
+        background-color: lightgray;
+        text-align: center;
+        padding: 20px;
+       }
+       .link1{
+        text-align: center;
+        color: white;
+        background-color: black;
+        margin-top: 10px;
+       }
+       @media only screen and (min-width:480px){
+            .cont3{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+            }
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <h1>My Website</h1>
+            <p class="para1">With a flexible layout.</p>
+        </div>
+        <div class="cont2">
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </div>
+    </header>
+
+
+
+    <div class="cont3">
+        <aside>
+            <h1>About Me</h1>
+            <h3>Photo of me:</h3>
+            <!-- <img src="https://www.w3schools.com/w3images/natureboy.jpg" alt="" class="img1"> -->
+            <div class="img1">
+                <p>Image</p>
+            </div>
+            <p>Some text about me in culpa qui official deserunt mollit animation</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eos 
+                delectus quo! Id, molestias earum. Veritatis temporibus odio, pariatur 
+                aliquid eos tempore repellat? Vero ad, exercitationem tempora aliquam 
+                voluptatibus blanditiis.
+            </p>
+            <div>
+                <!-- <img src="https://www.w3schools.com/w3images/boy.jpg" alt="" class="img2"> -->
+                <!-- <img src="https://www.w3schools.com/w3images/girl.jpg" alt=""> -->
+                <!-- <img src="https://www.w3schools.com/w3images/girl_mountain.jpg" alt=""> -->
+                <div class="img2">
+                    <p>Image</p>
+                </div>
+
+                <div class="img2">
+                    <p>Image</p>
+                </div>
+
+                <div class="img2">
+                    <p>Image</p>
+                </div>
+
+            </div>
+        </aside>
+
+
+        <article>
+            <div>
+                <h1>TITLE HEADING</h1>
+                <h4>Title Description, Dec 7, 2017</h4>
+                <!-- <img src="" alt=""> -->
+                <div class="img1">
+                    <p>Image</p>
+                </div>
+                <h3>Some text</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat 
+                    quod minus placeat! Distinctio, nihil sunt repudiandae ipsa molestiae 
+                    voluptatum nam quam aliquam veniam, eveniet praesentium minima quidem 
+                    fuga numquam debitis.
+                </p>
+            </div>
+            <div>
+                <h1>TITLE HEADING</h1>
+                <h4>Title Description, Dec 7, 2017</h4>
+                <!-- <img src="" alt=""> -->
+                <div class="img1">
+                    <p>Image</p>
+                </div>
+                <h3>Some text</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat 
+                    quod minus placeat! Distinctio, nihil sunt repudiandae ipsa molestiae 
+                    voluptatum nam quam aliquam veniam, eveniet praesentium minima quidem 
+                    fuga numquam debitis.
+                </p>
+            </div>
+        </article>
+    </div>
+
+
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+
+    <div class="link1">
+        <a href="./index.html">home</a>
+    </div>
+</body>
+</html>
